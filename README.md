@@ -1,5 +1,5 @@
 # Programação Orientada a Objeto
-## Exercicio AD1.
+## Exercício AD1
 
 1. Suponha as classes abaixo, as quais iniciam uma aplicação em Java para manipulação de questões de uma prova:
 
