@@ -57,7 +57,7 @@ public class AD1_2017_2 {
 
 Após implementada, para os objetos criados na main(), esta aplicação deve ter a seguinte saída:
 
-<pre style="background-color: #e5e5e5;">
+<pre>
  1) Qual é o número da última versão de Java?
 
  2) Assinale verdadeiro ou falso para os itens:
