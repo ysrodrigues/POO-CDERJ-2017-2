@@ -81,18 +81,19 @@ Após implementada, para os objetos criados na main(), esta aplicação deve ter
 
 ## Exercício AD2
 
-1. Considere que sua empresa de software seja contratada pelos Correios para encontrar padrões para as soluções já implementadas para o problema de entrega de correspondências. Este problema consiste na procura de um caminho que, começa numa cidade de origem (isto é, a cidade onde as correspondências estão armazenadas) já definida, dentre várias, visita cada cidade SOMENTE uma vez e regressa à cidade inicial.
-  Seu programa deve receber, como parâmetro de entrada, um arquivo contendo as soluções já implementadas pelos Correios, e deve retornar, no arquivo **resp-<nome do arquivo de entrada>**, os melhores trechos entre duas cidades que já foram usados mais de uma vez (em ordem decrescente, mostrando sempre os melhores trechos primeiro).
+1. Considere que sua empresa de software seja contratada pelos Correios para encontrar padrões para as soluções já implementadas para o problema de entrega de correspondências. Este problema consiste na procura de um caminho que, começa numa cidade de origem (isto é, a cidade onde as correspondências estão armazenadas) já definida, dentre várias, visita cada cidade somente uma vez e regressa à cidade inicial.
+
+   Seu programa deve receber, como parâmetro de entrada, um arquivo contendo as soluções já implementadas pelos Correios, e deve retornar, no arquivo **resp-\<nome do arquivo de entrada\>**, os melhores trechos entre duas cidades que já foram usados mais de uma vez (em ordem decrescente, mostrando sempre os melhores trechos primeiro).
 
 Um exemplo de arquivo de entrada neste formato seria:
- RJ/SP/VIX/BH/NIT/RJ
- RJ/VIX/SP/BH/NIT/RJ
- SP/BH/NIT/RJ/VIX/SP
- BH/NIT/RJ/VIX/SP/BH
+- RJ/SP/VIX/BH/NIT/RJ
+- RJ/VIX/SP/BH/NIT/RJ
+- SP/BH/NIT/RJ/VIX/SP
+- BH/NIT/RJ/VIX/SP/BH
 
- Para o exemplo supracitado, o arquivo de resposta seria composto dos seguintes trechos:
- NIT/RJ  -> 4
- BH/NIT  -> 4
- RJ/VIX  -> 3
- VIX/SP  -> 3
- SP/BH   -> 3
+Para o exemplo supracitado, o arquivo de resposta seria composto dos seguintes trechos:
+- NIT/RJ  -> 4
+- BH/NIT  -> 4
+- RJ/VIX  -> 3
+- VIX/SP  -> 3
+- SP/BH   -> 3
